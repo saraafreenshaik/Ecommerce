@@ -1,0 +1,58 @@
+.account {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.account-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.account h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.account p {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.account-info, .order-history {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.update-btn {
+    background: #ff523b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.update-btn:hover {
+    background: #e03e30;
+}
